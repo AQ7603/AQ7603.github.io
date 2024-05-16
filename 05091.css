@@ -1,0 +1,57 @@
+#logo {position: fixed;
+    top: 20px;
+left: 20px;
+z-index: 100;
+background-color: rgb(0, 0, 0);
+color: white;
+}
+
+#box1{width: 220px;
+position: fixed;
+background-color: black;
+height: 100%;
+z-index: 99;}
+
+* {
+    margin: 0;
+  }
+  #menu {
+    width: 400px;
+    height: 60px;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+  align-items: flex-end;
+  z-index: 100;
+  }
+
+  #box2{width: 220px;
+    position: fixed;
+    background-color: black;
+    height: 100%;
+    z-index: 100;
+    right: 0px;}
+    
+  #menu > a:hover {
+    background-color: rgba(0, 0, 0, 0.356);
+    color: rgb(0, 0, 0);
+  }
+  .item {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin: 0 4px;
+    padding: 8px;
+  }
+  .fox{
+    position:relative;
+    margin: 0 auto;
+    width: 600px;
+    left: 180px;
+    justify-content: center;
+  background-color: black;
+    }
+    #box3{width: 100%;
+    z-index: 1000;}
