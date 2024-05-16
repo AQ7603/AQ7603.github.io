@@ -1,10 +1,17 @@
 #logo {position: fixed;
-    top: 20px;
-left: 20px;
+left: 220px;
 z-index: 100;
 background-color: rgb(0, 0, 0);
 color: white;
+top: 41px;
 }
+#box1-1
+{width: 100%;
+    position: fixed;
+    background-color: black;
+    height: 5%;
+    z-index: 1100;
+    }
 
 #box1{width: 220px;
 position: fixed;
@@ -19,8 +26,8 @@ z-index: 99;}
     width: 400px;
     height: 60px;
     position: fixed;
-    top: 50px;
-    right: 50px;
+    top: 67px;
+    right: 210px;
     display: flex;
     flex-direction:column;
     justify-content: center;
@@ -48,10 +55,12 @@ z-index: 99;}
   .fox{
     position:relative;
     margin: 0 auto;
-    width: 600px;
-    left: 180px;
-    justify-content: center;
+    width: 74%;
+    left: 220px;
+    color: black;
   background-color: black;
+  top: 20px;
     }
     #box3{width: 100%;
-    z-index: 1000;}
+    z-index: 1000;
+background-color: black;}
