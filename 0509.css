@@ -13,11 +13,7 @@
       z-index: 1100;
       }
   
-  #box1{width: 370px;
-  position: fixed;
-  background-color: black;
-  height: 100%;
-  z-index: 100;}
+  
   
   * {
       margin: 0;
@@ -35,12 +31,6 @@
     z-index: 9999;
     }
   
-    #box2{width: 370px;
-      position: fixed;
-      background-color: black;
-      height: 100%;
-      z-index: 100;
-      right: 0px;}
       
     #menu > a:hover {
       background-color: rgba(0, 0, 0, 0.356);
@@ -59,11 +49,8 @@
       left: 220px;
       color: black;
     background-color: black;
-    top: 20px;
+    top: 2000px;
       }
-      #box3{width: 100%;
-      z-index: 1000;
-  background-color: black;}
 #fox > img {
     width: 100%;
 }
