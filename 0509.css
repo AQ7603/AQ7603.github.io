@@ -1,56 +1,69 @@
 #logo {position: fixed;
-    top: 20px;
-left: 20px;
-z-index: 100;
-background-color: rgb(0, 0, 0);
-color: white;
-}
-
-#box1{width: 220px;
-position: fixed;
-background-color: black;
-height: 100%;
-z-index: 99;}
-
-* {
-    margin: 0;
+  left: 370px;
+  z-index: 9999;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  top: 41px;
   }
-  #menu {
-    width: 400px;
-    height: 60px;
-    position: fixed;
-    top: 50px;
-    right: 50px;
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-  align-items: flex-end;
-  z-index: 100;
-  }
-
-  #box2{width: 220px;
-    position: fixed;
+  #box1-1
+  {width: 100%;
+      position: fixed;
+      background-color: black;
+      height: 10%;
+      z-index: 1100;
+      }
+  
+  #box1{width: 370px;
+  position: fixed;
+  background-color: black;
+  height: 100%;
+  z-index: 100;}
+  
+  * {
+      margin: 0;
+    }
+    #menu {
+      width: 400px;
+      height: 60px;
+      position: fixed;
+      top: 45px;
+      right: 370px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+    align-items: flex-start;
+    z-index: 9999;
+    }
+  
+    #box2{width: 370px;
+      position: fixed;
+      background-color: black;
+      height: 100%;
+      z-index: 100;
+      right: 0px;}
+      
+    #menu > a:hover {
+      background-color: rgba(0, 0, 0, 0.356);
+      color: rgb(0, 0, 0);
+    }
+    .item {
+      background-color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
+      margin: 0 4px;
+      padding: 8px;
+    }
+    .fox{
+      position:relative;
+      margin: 0 auto;
+      width: 74%;
+      left: 220px;
+      color: black;
     background-color: black;
-    height: 100%;
-    z-index: 100;
-    right: 0px;}
-    
-  #menu > a:hover {
-    background-color: rgba(0, 0, 0, 0.356);
-    color: rgb(0, 0, 0);
-  }
-  .item {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    margin: 0 4px;
-    padding: 8px;
-  }
-
-  #fox {
-    width: 100%;
-    position: relative;
-    margin: 0 auto; /* position이 relative일 때 가로 정렬 방법, 좌우 여백을 자동으로 동일하게 적용 */
-}
+    top: 20px;
+      }
+      #box3{width: 100%;
+      z-index: 1000;
+  background-color: black;}
 #fox > img {
     width: 100%;
 }
